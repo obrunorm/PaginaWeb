@@ -435,6 +435,15 @@ p {
 	position: relative;
 	border: 10px solid white;
 }
+
+@media (max-width : 768px) {
+	#about .col-left .about-img {
+		width: 290px;
+		height: 100%;
+		min-height: 100px;
+	}
+  }
+
 #about .col-left .about-img::after {
 	content: '';
 	position: absolute;
@@ -445,6 +454,15 @@ p {
 	border: 7px solid #1d2efc;
 	z-index: -1;
 }
+
+@media (max-width : 768px) {
+	#about .col-left .about-img::after {
+		width: 50%;
+		height: 100%;
+		min-height: 100px;
+	}
+  }
+
 /* End About Section */
 
 /* contact Section */
